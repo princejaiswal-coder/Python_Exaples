@@ -1,17 +1,18 @@
-#list examples
-import random
+# Python List Functions
 
-random_num = random.randint(1,5)
+# 1 . Append
+print("The append() method adds an item to the end of the list.")
+mobile_brand = ["Oppo","Vivo","Poco"]
+mobile_brand.append("Music App")
+print(mobile_brand)
+premium_brand = ["Apple","OnePlus","Samsung"]
+premium_brand.append(mobile_brand)
+print(f"List Added {premium_brand}")
 
-fruits = ["Apple","Mango","Strawberry","Coconut","Banana","Grapes"]
-
-# We Can Change The Value Inside The List !!
-fruits[0] = "Pineapple"
-
-# We Can Add Words To The List
-fruits.append("This Is Added Word !!")
-
-# We Can Add List To The Fruits List
-fruits.extend(["This Is Added List","1",2,True,False])
-
-print(fruits)
+#2 . Extend
+print("Extend Method , it adds list to a list")
+mobile_brand = ["Oppo","Vivo","Poco"]
+print(mobile_brand)
+premium_brand = ["Apple","OnePlus","Samsung"]
+premium_brand.extend(mobile_brand)
+print(f"List Added {premium_brand}")
