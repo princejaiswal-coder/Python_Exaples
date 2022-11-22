@@ -16,3 +16,8 @@ print(mobile_brand)
 premium_brand = ["Apple","OnePlus","Samsung"]
 premium_brand.extend(mobile_brand)
 print(f"List Added {premium_brand}")
+
+# 3. List ()
+t1 = ['a','e','u']
+insert = t1.insert(2,'i')
+print(t1)
