@@ -29,3 +29,8 @@ print("Final String :",s1,s3)
 
 print("*".join(name))
 
+string = "#"
+pattern = ""
+for a in range(5):
+    pattern += string
+    print(pattern)
